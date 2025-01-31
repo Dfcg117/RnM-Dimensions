@@ -17,16 +17,11 @@ function App() {
   }, [search])
 
 
-  return (
-   <div>
-     <section className="hero" style={{ backgroundImage: `url(${heroImage})` }}>
-    <div className="hero-content">
 
    return (
   <div>
     <section className="hero" style={{ backgroundImage: `url('https://i.redd.it/o6cwlzg3exk41.png')` }}>
       <div className="hero-content">
-        {/* Tu contenido aquí */}
       </div>
     </section>
   </div>
