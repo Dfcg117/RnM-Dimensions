@@ -5,16 +5,12 @@
   text-align: center;
 }
 
+
 .hero {
-  background-image: url('/assets/images/hero.jpeg');
-  background-size: cover;
-  background-position: center center;
   background-repeat: no-repeat;
-  min-height: 100vh;
-  padding: 0;
-  color: white;
-  text-align: center;
-  position: relative;
+  background-size: cover;
+  background: center;
+
 }
 
 .hero .hero-content {
