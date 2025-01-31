@@ -1,0 +1,64 @@
+.resident {
+  background-color: rgba(0, 0, 0, 0.47);
+  color: white;  
+  border-radius: 10px;
+  overflow: hidden;
+
+  &__header {
+    position: relative;
+    overflow: hidden;
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  &__status {
+    position: absolute;
+    top: .5em;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.785);
+    color: white;
+    padding: .5em 3em .5em 1em;
+    border-radius: 0 6px 6px 0;
+
+  }
+
+  &__body {
+    padding: 1em 1em 2em;
+
+  }
+
+  &__name {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: .5em;
+    padding-bottom: .5em;
+    margin-bottom: .5em;
+    border-bottom: 1px solid #ffffff39;
+  }
+
+  &__details {
+
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+
+    &-item {
+      font-size: 14px;
+      color: #ccc;
+
+    }
+
+    &-span {
+      display: block;
+      font-size: 16px;
+      color: white;
+    }
+    
+  }
+}
