@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div>
-      <section className="hero" style= "background-image: url('https://i.redd.it/o6cwlzg3exk41.png')">
+      <section className="hero" style="background-image: url('https://i.redd.it/o6cwlzg3exk41.png')">
         <div className="hero-content">
         </div>
       </section>
