@@ -4,6 +4,7 @@ import LocationCard from "./components/LocationCard"
 import ResidentsList from "./components/ResidentsList"
 import SearchForm from "./components/SearchForm"
 import { randomID } from "./utils"
+import './App.css';
 
 const baseUrl = 'https://rickandmortyapi.com/api'
 
