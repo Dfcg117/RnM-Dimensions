@@ -4,7 +4,7 @@ import LocationCard from "./components/LocationCard"
 import ResidentsList from "./components/ResidentsList"
 import SearchForm from "./components/SearchForm"
 import { randomID } from "./utils"
-import heroImage from './assets/images/hero.png';
+import heroImage from './assets/images/hero.jpg';
 
 const baseUrl = 'https://rickandmortyapi.com/api'
 
