@@ -20,7 +20,7 @@ function App() {
   return (
     <div>
     
-      <section className="hero" style={{ backgroundImage: `url('https://i.ibb.co/bMnmvcL4/hero.jpg')` }}>
+      <section className="hero" style={{ backgroundImage: `url('https://i.postimg.cc/QdKrf4Xs/hero.jpg')` }}>
         <div className="hero-content">
         </div>
       </section>
